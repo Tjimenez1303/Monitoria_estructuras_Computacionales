@@ -136,7 +136,7 @@ int main(void)
 
    //**********************************Paso 0: Cargamos el reloj del puerto C**********************************
 
-   // Cargamos el clock del GPIOA
+   // Cargamos el clock del GPIOC
    RCC -> AHB2ENR |= RCC_AHB2ENR_GPIOCEN;
 
    //**********************************Paso 1: Cargamos el moder del puerto C**********************************
@@ -165,7 +165,7 @@ int main(void)
    //Cargamos una máscara con los bits 00
    uint32_t mode_output_button = 0x0;												// 0000 0000 0000 0000 0000 0000 0000 0000
 
-   //Movemos la máscara a los bits 10 y 11 (PIN 26)
+   //Movemos la máscara a los bits 26 y 27 (PIN 13)
    mode_output_button = mode_output_button << (2 * 13);									// 0000 0000 0000 0000 0000 0100 0000 0000
 
    //*****************************Paso 5: Juntamos nuestra máscara sin modificar el moder***********************
