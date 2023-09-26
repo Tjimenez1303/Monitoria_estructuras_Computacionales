@@ -12,3 +12,4 @@ This repository serves as support material for the monitoring of the subject of 
 ## HAL Programs
 * [M_03_Interrupts_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_03_Interrupts_HAL) : In this project, a button is initialized as an interrupt using the HAL graphical interface in which the button is pressed, throws the interrupt and proceeds to make a toggle of PA5 (LD2).
 * [M_04_UART_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_04_UART_HALL) : In this project we learn how to initialize the USART 2 of the NUCLEOL476RG card and then send a Hello World! by the UART peripheral.
+* * [M_05_UART_2_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_05_UART_2_HAL) : In this project we learn how to initialize the USART 2 of the NUCLEOL476RG card and then send count by printf by the UART peripheral.
