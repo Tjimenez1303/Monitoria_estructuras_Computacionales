@@ -22,3 +22,5 @@ This repository serves as support material for the monitoring of the subject of 
 
 ### Timers
 * [M_09_Timer_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_09_Timer_HAL) : In This project consists of initializing two timers. Timer 1 is used for a PWM signal and Timer 7 to increment a counter periodically to be printed by UART.
+* [M_10_Timer_IT_HALL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_10_Timer_IT_HAL) : In this project shows the operation of the interruptions of a Timer when turning on an LD2 (PA5) when the interruption is activated every 1 second.
+* [M_11_Timer_PWM_LED_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_11_Timer_PWM_LED_HAL) : In this project we will initialize two timers: Timer 16 to turn on the LD2 (PA5) every 1 second per interruption. Timer 3 starts as Pulse With Modulation (PWM) by varying the useful cycle of this dynamically. This can be seen by connecting an LED to Channel 1 of Timer 3 (PA6).
