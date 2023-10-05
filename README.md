@@ -27,5 +27,5 @@ This repository serves as support material for the monitoring of the subject of 
 * [M_11_Timer_PWM_LED_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_11_Timer_PWM_LED_HAL) : In this project we will initialize two timers: Timer 16 to turn on the LD2 (PA5) every 1 second per interruption. Timer 3 starts as Pulse With Modulation (PWM) by varying the useful cycle of this dynamically. This can be seen by connecting an LED to Channel 1 of Timer 3 (PA6).
 
 
-  ### ADC
-  * [M_12_ADC_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_12_ADC_HAL) : In this project the ADC1 converter is initialized with channels 5 and 2 for the measurement of two different analog signals connected to pins PA0 and PC1 of the STM32 card NucleoL476RG.
+### ADC
+* [M_12_ADC_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_12_ADC_HAL) : In this project the ADC1 converter is initialized with channels 5 and 2 for the measurement of two different analog signals connected to pins PA0 and PC1 of the STM32 card NucleoL476RG.
