@@ -30,6 +30,8 @@ This repository serves as support material for the monitoring of the subject of 
 ### ADC
 * [M_12_ADC_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_12_ADC_HAL) : In this project the ADC1 converter is initialized with channels 5 and 2 for the measurement of two different analog signals connected to pins PA0 and PC1 of the STM32 card NucleoL476RG.
 * [M_13_ADC_DMA_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/blob/main/M_13_ADC_DMA_HAL/Core/Src/main.c) : In this project we will see how data can be received from the ADC through DMA.
-### Librerías
+
+
+
+### Libraries
 * [M_14_Ring_Buffer](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_14_Ring_Buffer) : In this project we will see the operation of the Ring Buffer library through two demonstrations: the first consists of printing the data that is received in the Ring Buffer and the second consists of seeing the current size of the Ring Buffer.
-* 
