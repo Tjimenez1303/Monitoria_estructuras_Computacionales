@@ -37,3 +37,6 @@ This repository serves as support material for the monitoring of the subject of 
 
 ### Ring Buffer
 * [M_14_Ring_Buffer](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_14_Ring_Buffer) : In this project we will see the operation of the Ring Buffer library through two demonstrations: the first consists of printing the data that is received in the Ring Buffer and the second consists of seeing the current size of the Ring Buffer.
+
+### Keyboard
+* [M_15_Membrane_Keyboard_HAL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_15_Membrane_Keyboard_HAL) : In this project we will see the operation of a basic membrane keyboard, where the keys pressed in the Ring Buffer will be stored and, after 5 Bytes sent, it will be compared with the birthday date plus the "#". Example: "2002#" In addition, the sequence will restart at any time if the "*" key is pressed.
