@@ -43,14 +43,4 @@ This repository serves as support material for the monitoring of the subject of 
 
 ### Keyboard+SSD1306
 * [M_16_Keyboard_LCD_HALL](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/tree/main/M_16_Keyboard_LCD_HAL) : In this project we will see the operation of a basic membrane keyboard, where the keys pressed in the Ring Buffer will be stored and, after 5 Bytes sent, it will be compared with the birthday date plus the "#", and it will be displayed on the "Pass" ssd; otherwise, if the fault does not match it will be displayed in the "Fail" ssd. Example: "2002#" In addition, the sequence will restart at any time if the "*" key is pressed.
-  #### **Note:** It is important to add the Drivers folder in the path so that the compiler knows where to find the ssd driver files.To add these files to the path, do the following:
-  Descargue de la carpeta Drivers_External (LINK) la carpeta "External", esta la debe agregar como carpeta fuente en su proyecto
-  ![Carpeta Fuente](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/blob/main/Images/Carpeta_Fuente.png)
-  Luego agreugue la carpeta al PATH del proyecto haciendo click derecho sobre el proyecto:
-  ![Propiedades](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/blob/main/Images/Propiedades.png)
-  Diríjase a las configuraciones de C/C++ Build y agregue un nuevo PATH:
-  ![PATH](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/blob/main/Images/Path.png)
-  Seleccione la carpeta fuente SSD1306
-  ![Carpeta PATH](https://github.com/Tjimenez1303/Monitoria_estructuras_Computacionales/blob/main/Images/Carpeta_Path.png)
-  Aplique los cambios
   
