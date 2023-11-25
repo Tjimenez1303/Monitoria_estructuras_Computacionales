@@ -17,8 +17,7 @@ uint8_t keypad_map[4][4] = {
 };
 
 /**
- * @brief This functions initialize the functionality of the keypad
- * Inicializa el teclado configurando las filas como altas. Esto significa que se establece un voltaje alto en las filas del teclado.
+ * @brief Inicializa el teclado configurando las filas como altas. Esto significa que se establece un voltaje alto en las filas del teclado.
  */
 void keypad_init(void)
 {
@@ -89,6 +88,8 @@ uint8_t keypad_handler(uint16_t column_to_evaluate)
 	/*** Debounce the key press (remove noise in the key) ***/
 	#define KEY_DEBOUNCE_MS 300 /*!> Minimum time required for since last press */
 
+
+
 	static uint32_t last_pressed_tick = 0;
 	if (HAL_GetTick() <= (last_pressed_tick + KEY_DEBOUNCE_MS)) {
 		// less than KEY_DEBOUNCE_MS since last press. Probably noise
@@ -129,6 +130,7 @@ uint8_t keypad_handler(uint16_t column_to_evaluate)
 	/*!\ TODO: Implement other column cases here */
 
 	default:
+//		return key_pressed;
 		/* This should not be reached */
 	  break;
 	}

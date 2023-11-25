@@ -90,7 +90,6 @@ void Error_Handler(void);
 #define ROW_4_GPIO_Port GPIOB
 #define ROW_3_Pin GPIO_PIN_5
 #define ROW_3_GPIO_Port GPIOB
-
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
